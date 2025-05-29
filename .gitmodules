@@ -1,0 +1,9 @@
+[submodule "themes/bridget"]
+	path = themes/bridget
+	url = https://github.com/Sped0n/bridget
+[submodule "website/themes/bridget"]
+	path = website/themes/bridget
+	url = https://github.com/Sped0n/bridget
+[submodule "pg-web/themes/bridget"]
+	path = pg-web/themes/bridget
+	url = https://github.com/Sped0n/bridget.git

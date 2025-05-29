@@ -1,0 +1,28 @@
+# timeout
+timeout = "1200s"
+# your website url
+baseURL = 'https://bridget-demo.sped0n.com'
+# website title
+title = 'Bridget'
+# don't touch this
+disableKinds = ["section", "taxonomy", "term", "home"]
+# robots.txt
+enableRobotsTXT = true
+# available options
+# * en (powered by Geist)
+# * de (powered by Geist)
+# * es (powered by Geist)
+# * fr (powered by Geist)
+# * it (powered by Geist)
+# * zh-sg zh-cn (powered by Noto Sans SC)
+# * zh-hk zh-tw zh-mo (powered by Noto Sans TC)
+# * ja (powered by Noto Sans JP)
+# * ko (powered by Noto Sans KR)
+# * ta (powered by Noto Sans TA)
+defaultContentLanguage = 'en'
+
+# theme as module
+[module]
+replacements = "github.com/Sped0n/bridget/v2 -> ../.." # deploy with local dir (relative to hugo site theme dir)  WARN: delete this line if you want to deploy with git
+[[module.imports]]
+path = "github.com/Sped0n/bridget/v2" # deploy with git (recommended)  WARN: you should also set `bundled` to true in params.toml !!!
