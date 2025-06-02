@@ -2,3 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My Bridget Site"
 theme = "bridget"
+
+[params]
+customCSS = ["css/custom.css"]

@@ -2,3 +2,34 @@ pg-web/public
 pg-web/resources/_gen
 pg-web/.hugo_build.lock
 .hugo_build.lock
+
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# OS + editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Nix + flakes
+/result
+/flake.lock
+
+# Logs + temp
+*.log
+*.tmp
+
+# Node or tooling (if used)
+node_modules/
+package-lock.json
+
+# Theme/vendor folders IF they’re pulled by nix or git submodules
+/themes/**
+
+# Optional: ignore built theme bundles if pulled externally
+/static/bundled/
+public
+public
